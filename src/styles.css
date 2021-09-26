@@ -55,14 +55,6 @@ button::hover {
   cursor: pointer;
 }
 
-.current-location {
-  position: relative;
-  top: -55px;
-  right: -558px; 
-}
-.current-location:hover {
-  cursor: pointer;
-}
 h1 {
   text-transform: capitalize;
 }
