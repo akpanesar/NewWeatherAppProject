@@ -57,7 +57,8 @@ button::hover {
 
 .current-location {
   position: relative;
-
+  top: -9px;
+  right: -21px; 
 }
 .current-location:hover {
   cursor: pointer;
