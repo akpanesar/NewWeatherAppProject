@@ -1,0 +1,109 @@
+body {
+  background: radial-gradient(rgb(251, 250, 225) 0%, rgb(100, 163, 111) 100%);
+  font-family: "Libre Baskerville", serif;
+  color: #3e4a61;
+}
+.container {
+  margin-top: 50px 50px;
+  padding: 50px 50px;
+}
+
+.displayBox {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(116, 203, 199) 0%,
+    rgb(220, 246, 200) 80%
+  );
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 9px 9px 5px #4a4a4a;
+  border-radius: 10px;
+  height: 90%;
+  width: 60%;
+}
+
+.searchInput {
+  padding: 12px 100px;
+  background: transparent;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  font-size: 1.5vw;
+  text-transform: capitalize;
+  letter-spacing: 0.2vw;
+}
+
+.searchInput:hover {
+  cursor: pointer;
+}
+.searchInput:focus {
+  border: none;
+  outline-color: none;
+  font-family: monospace;
+}
+
+button {
+  padding: 12px 24px;
+  background: #dcf6c8;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  font-size: 1.25vw;
+  text-transform: capitalize;
+  letter-spacing: 0.2vw;
+  color: #3e4a61;
+}
+button::hover {
+  cursor: pointer;
+}
+
+.current-location {
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
+.current-location:hover {
+  cursor: pointer;
+}
+h1 {
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 3.5rem;
+  padding: 0px 0px;
+  margin: 0 auto;
+}
+li {
+  text-transform: capitalize;
+}
+.col-5 {
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  padding: 0.5vw;
+  margin-top: 0.68vw;
+}
+.time {
+  font-size: 1rem;
+}
+
+.detail {
+  font-size: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.6rem;
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+a {
+  color: #3e4a61;
+}
+#details {
+  text-align: center;
+}
